@@ -1,0 +1,21 @@
+student={
+    "name":"karan",
+    "age":20,
+    "marks":{
+        "hindi":90.6,
+        "telugu":40.8
+    }
+}
+
+print(student)
+print(student["marks"]["telugu"])
+print(student.keys())
+print(student.values())
+print(student.items())
+print(student.get("age"))
+myDict={
+    "name2":"narayon",
+    "age2":202
+    }
+student.update(myDict)
+print(student)

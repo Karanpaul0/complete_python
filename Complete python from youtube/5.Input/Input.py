@@ -1,0 +1,6 @@
+strInp=input("Enter your name:- ")
+intInp=int(input("Enter the number:- "))
+floatInp=float(input("enter the marks:- "))
+print(type(strInp), strInp)
+print(type(intInp), intInp)
+print(type(floatInp), floatInp)
